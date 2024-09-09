@@ -15,7 +15,18 @@
    background-color: rgb(68, 77, 88);
    color: rgb(137, 128, 128);
 }
-
+.global-section{
+    padding: 3rem 0;
+}
+.global-h1{
+font-size: 55px;
+text-align: center;
+}
+.global-h1-p1{
+color: #000000;
+text-align: center;
+margin-bottom: 20px;
+}
 
 /* frist section */
 .first-section{
@@ -39,4 +50,95 @@
 .first-section p{
   font-size: 2rem;
   color: rgb(56, 133, 200);
+}
+/* About section */
+.About-me-div{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 3rem 0;
+}
+.about-sub2{
+    width: 500px;
+    gap: 20px;
+}
+.About-me-div img{
+    width: 450px;
+    padding-top: 10px;
+    margin-right: 30px;
+
+}
+.about-sub2 h2{
+ font-size: 33px;
+ padding-bottom: 10px;  
+}
+.about-sub2 p{
+    color: #000000;
+    margin-bottom: 30px;
+}
+/* this is service area */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-singel-item{
+    padding: 50px;
+    text-align: center;
+}
+.custom-icon-size{
+    font-size: 60px;
+}
+/* this is work section */
+.work-single-image{
+    width: 300px;
+}
+/* contact section */
+.contact-heading{
+    text-align: center;
+    font-size: 55px;
+}
+form{
+    margin: 27rem;
+    margin-top: 50px;
+}
+form input{
+    width: 450px;
+    height: 40px;
+    border: 1px solid greenyellow;
+    gap: 20px;
+    border-radius: 5px;
+}
+.text-area-class{
+    margin-top: 40px;
+    width: 450px;
+    height: 200px;
+    border: 1px solid greenyellow;
+    gap: 3px;
+    border-radius: 5px;
+}
+.email-input{
+    margin-top: 40px;
+}
+.submit-btn{
+    width: 160px;
+    height: 45px;
+    color: wheat;
+    background-color: #783b3b;
+    margin-top: 50px;
+}
+.submit-btn:hover{
+    background-color: #ad2828;
+}
+/* This is footer section */
+footer{
+    background-color: black;
+    color: white;
+    height: 4rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+footer p{
+    padding-top: 15px;
 }
